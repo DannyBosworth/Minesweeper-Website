@@ -1,0 +1,189 @@
+body, html {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    background-color: #282828;
+    color: white;
+}
+
+#menu {
+    background-color: #282828;
+}
+
+.noselect {
+
+    user-select: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    font-size: xx-large;
+    outline: none;
+    color: white;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+.themebtn {
+
+    width: 13%;
+    height: 5%;
+    margin-right: 2%;
+}
+
+#diffbtn:focus {
+    box-shadow: none;
+}
+
+#diffbtn:hover {
+    color: yellow;
+}
+
+.selected {
+    color: yellow !important;
+}
+
+
+#custom {
+    display: none;
+}
+
+#create {
+
+    color: white;
+}
+
+.numinput {
+
+    color: white;
+    background-color: #282828;
+}
+
+.numinput:focus {
+
+    background-color: #282828;
+    color: white;
+}
+
+.cell {
+    background-color: white;
+    cursor: pointer;
+}
+
+#table {
+    margin-bottom: 5%;
+}
+
+.navContainer {
+
+    display: flex;
+    align-items:flex-end;
+    font-size: xx-large;
+}
+
+
+#checkContainer {
+    height: 15%; 
+    display: flex;
+    margin-top: 10%;
+}
+
+#solverToggle {
+
+    height: 25%;
+    width: 20%;
+    margin-right: 5%;
+}
+
+#toggleLabel {
+    
+    font-size: xx-large; 
+    user-select: none;
+}
+  
+  
+
+
+.cellU:active {
+    background-color:#282828;
+}
+
+.disable {
+    pointer-events: none;
+}
+
+.cell0 {
+    background-image: url(images/BlankCell.svg);
+}
+
+.cell1 {
+    background-image: url(images/1Cell.svg);
+}
+
+.cell2 {
+    background-image: url(images/2Cell.svg);
+}
+
+.cell3 {
+    background-image: url(images/3Cell.svg);
+}
+
+.cell4 {
+    background-image: url(images/4Cell.svg);
+}
+
+.cell5 {
+    background-image: url(images/5Cell.svg);
+}
+
+.cell6 {
+    background-image: url(images/6Cell.svg);
+}
+
+.cell7 {
+    background-image: url(images/7Cell.svg);
+}
+
+.cell8 {
+    background-image: url(images/8Cell.svg);
+}
+
+.cellM {
+    background-image: url(images/OpenedMineCell.svg);
+}
+
+.cellF {
+    background-image: url(images/FlagCell.svg);
+}
+
+.cellL {
+    background-image: url(images/LostMineCell.svg);
+}
+
+.colourGreen {
+    background-color: #00ff00;
+}
+
+.colourYellow {
+    background-color: #ffff00;
+}
+
+.colourRed {
+    background-color: #ff0000;
+}
+
+.colourBlue {
+    background-color: #0000ff;
+}
+
+.colourPink {
+    background-color: #ff00ff;
+}
+
+.colourOrange {
+    background-color: #ff6600;
+}
